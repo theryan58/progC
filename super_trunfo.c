@@ -2,9 +2,9 @@
 #include <string.h>
 
 int main() {
-    char estado[50], estado2[50];
+    char estado[40], estado2[40];
     char codigo, codigo2;
-    char cidade[50], cidade2[50];
+    char cidade[40], cidade2[40];
     int populacao, populacao2;
     float area, area2;
     float pib, pib2;
@@ -27,7 +27,7 @@ int main() {
     scanf(" %c", &codigo);
 
     printf("Digite o nome da cidade:\n");
-    scanf(" %[^\n]", cidade);  // Lendo nome completo da cidade
+    scanf(" %[^\n]", cidade);  // Lendo nome da cidade completo
 
     printf("Digite o número da população:\n");
     scanf("%d", &populacao);
